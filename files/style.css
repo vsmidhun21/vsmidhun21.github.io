@@ -696,7 +696,7 @@ body {
     /*home*/
     .home{
         align-items: normal;
-        padding-top: 40%;
+        padding-top: 30%;
         padding-bottom: 0;
     }
     .home-content h1 {
@@ -849,7 +849,7 @@ body {
     .home{
         width: 100%;
         align-items: normal;
-        padding-top: 40%;
+        padding-top: 30%;
         padding-bottom: 0;
     }
     .home-content h1 {
