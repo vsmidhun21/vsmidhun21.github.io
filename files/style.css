@@ -700,22 +700,22 @@ body {
         padding-bottom: 0;
     }
     .home-content h1 {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 600;
     }
     
     .home-content h3 {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 300;
     }
     
     .home-content h4 {
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 200;
     }
     
     .home-content h4 span {
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 200;
     }
     .img{
@@ -849,21 +849,21 @@ body {
     .home{
         width: 100%;
         align-items: normal;
-        padding-top: 30%;
+        padding-top: 35%;
         padding-bottom: 0;
     }
     .home-content h1 {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
     }
     
     .home-content h3 {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 300;
     }
     
     .home-content h4 {
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 200;
     }
     
