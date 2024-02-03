@@ -336,7 +336,7 @@ body {
 .main-text {
     padding-top: 50px;
     margin-top: 10px;
-    padding-bottom: 130px;
+    padding-bottom: 30px;
     align-items: center;
     justify-items: center;
     
@@ -417,12 +417,6 @@ body {
     transition: .5s;
     cursor: pointer;
 }
-.card:hover{
-    transform: translateY(-5px);
-    transition: .3s;
-}
-
-
 
 
 
@@ -436,7 +430,10 @@ body {
     padding: 40px;
     padding-top: 70px;
     justify-content: center;
-    background-color: #000;
+    background: url('../img/bgWorld.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
 }
 
 .contact-text {
@@ -508,9 +505,8 @@ body {
     width: 100%;
     text-align: center;
     padding: 25px;
-    background: black;
     font-weight: 300;
-    margin-top: 0px;
+    margin-top: 20%;
 }
 .top{
     position: fixed;
@@ -539,6 +535,13 @@ body {
     box-shadow: 0 0 5px cyan,
     0 0 25px cyan, 0 0 50px cyan,0 0 200px cyan;
 }
+
+.reveal{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(20px);
+}
+
 
 /* Animations */
 
