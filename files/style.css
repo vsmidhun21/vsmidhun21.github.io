@@ -9,12 +9,11 @@
 
 body {
     color: white;
-    background-color: #2B2E3B;
+    background-color: black;
 }
 
 ::-webkit-scrollbar{
     width: 12px;
-    background-color: #000;
 }
 ::-webkit-scrollbar-thumb{
     background: #0ef;
@@ -29,14 +28,13 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: hsl(228, 15%, 20%);
-    /*backdrop-filter: blur(25px);*/
+    background: transparent;
+    backdrop-filter: blur(25px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
     overflow: hidden;
-    box-shadow: 0 .1rem 1rem #000;
 }
 
 .logo {
@@ -69,25 +67,19 @@ body {
     text-decoration: underline;
 }
 
-.navbar .active{
-    color: #0ef;
-    text-decoration: underline;
-}
 /*home*/
 
 .home {
     position: relative;
     width: 100%;
     justify-content: space-between;
-    min-height: 95vh;
-    background-color: #2b2e3b;
-    color: white;
+    min-height: 100vh;
+    background-color: black;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 0px 10% 0;
-    margin-top: 60px;
+    padding: 70px 10% 0;
 }
 
 .home-content {
@@ -195,34 +187,16 @@ body {
 .responsive {
     width: 100%;
     height: auto;
-    max-width: 492px;
-    max-height: 492px;
+    border-top-left-radius: 251px;
+    border-top-right-radius: 251px;
+    border-bottom-left-radius: 251px;
+    border-bottom-right-radius: 251px;
 }
 
 /*about*/
-.custom-shape-divider-top-1720508545 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
 
-.custom-shape-divider-top-1720508545 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 100px;
-}
-
-.custom-shape-divider-top-1720508545 .shape-fill {
-    fill: #2B2E3B;
-}
 .about {
-    background-color: hsl(228, 15%, 15%);
-    color: white;
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(2, .5fr);
     /*align-items: center;*/
@@ -231,7 +205,6 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     padding: 70px 5% 0;
-    padding-bottom: 100px;
 }
 
 .about-img {
@@ -240,7 +213,7 @@ body {
     background-position: center center;
     background-size: cover;
     padding-right: 10%;
-    margin-top: 10%;
+    margin-top: 2.5%;
     /*margin-top: 7.5%;*/
     opacity: 1;
 }
@@ -250,11 +223,13 @@ body {
     height: auto;
     max-width: 492px;
     max-height: 492px;
+    border-radius: 90px;
+    /*box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;*/
+    border: #0ef 5px solid;
 }
 
 .about-text {
     margin-right: 2%;
-    margin-top: 10%
 }
 
 .about-text h2 {
@@ -267,7 +242,7 @@ body {
 }
 
 .about-text p {
-    color: white;
+    color: aliceblue;
     font-size: 20px;
     line-height: 2;
     letter-spacing: 2px;
@@ -293,30 +268,10 @@ body {
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
 
-.custom-shape-divider-bottom-1720509106 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
 
-.custom-shape-divider-bottom-1720509106 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 100px;
-}
-
-.custom-shape-divider-bottom-1720509106 .shape-fill {
-    fill: #2b2e3b;
-}
 /* Skills */
-
 #Skills{
-    background-color: #2b2e3b;
-    color: #fff;
+    background-color: #000;
 }
 .subtitle {
     text-align: center;
@@ -376,8 +331,7 @@ body {
 
 /*projects*/
 #Projects{
-    background-color: #2b2e3b;
-    color: #fff;
+    background-color: #000;
 }
 .main-text {
     padding-top: 50px;
@@ -465,10 +419,10 @@ body {
 }
 
 
+
 /*contacts*/
 
 .contacts {
-    color: #fff;
     display: grid;
     /*grid-template-columns: repeat (2, 1fr);*/
     align-items: center;
@@ -479,7 +433,7 @@ body {
     background: url('../img/bgWorld.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    height: 600px;
 }
 
 .contact-text {
@@ -554,8 +508,6 @@ body {
     font-weight: 300;
     margin-top: 20%;
 }
-
-/* Go Top Button */
 .top{
     position: fixed;
     bottom: 2.1rem;
@@ -584,7 +536,6 @@ body {
     0 0 25px cyan, 0 0 50px cyan,0 0 200px cyan;
 }
 
-/* Scroll Reveal */
 .reveal{
     opacity: 0;
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;

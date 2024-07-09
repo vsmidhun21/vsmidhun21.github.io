@@ -1,27 +1,6 @@
-/*========== scroll sections active link in navbar ==========*/
-let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
 
-window.onscroll = () => {
-    sections.forEach(sec => {
-        let top = window.scrollY;
-        let offset = sec.offsetTop - 150;
-        let height = sec.offsetHeight;
-        let id = sec.getAttribute('id');
-        console.log(id);
-        if(top >= offset && top < offset + height) {
-            navLinks.forEach(links => {
-                links.classList.remove('active');
-                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-            });
-        };
-    });
-};
-
-
-/*========== Typing animation in home page ==========*/
 var typed = new Typed(".text", {
-    strings: ["Programming" , "Web Development", "Cybersecurity"],
+    strings: ["Programming" , "Cybersecurity" , "Web Development"],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
@@ -29,7 +8,6 @@ var typed = new Typed(".text", {
 });
 
 
-/*========== Go top icon in left bottom ==========*/
 const toTop = document.querySelector(".top");
 window.addEventListener("scroll",() =>{
     if (window.pageYOffset > 100){
@@ -40,7 +18,7 @@ window.addEventListener("scroll",() =>{
     }
 })
 
-/*========== Scroll Reveal script ==========*/
+
 document.addEventListener('DOMContentLoaded', function () {
     const cards = document.querySelectorAll('.reveal');
     function checkScroll() {
