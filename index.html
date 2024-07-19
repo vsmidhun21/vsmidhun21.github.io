@@ -1,22 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--========Meta Tags SEO======-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Midhun V S</title>
-        <link rel="shortcut icon" type="image/png" href="./img/about.png">
-        <link rel="stylesheet" href='./files/style.css'>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <meta name="description" content="A passionate 'Web Developer' | 'Python Developer' from India. This portfolio showcasing projects, skills, and experiences in web development, software engineering, and more. Discover my work, professional journey, and get in touch for collaborations.">
+        <meta name="keywords" content="Portfolio, Web Developer, Python Developer, Software Engineer, Python Full Stack Developer">
         
+        <!--=========Canonical Tag=======-->
+        <link rel="canonical" href="https://vsmidhun21.github.io">
+
+        <!--========Social Media Tag=========-->
+        <meta property="og:title" content="Midhun V S">
+        <meta property="og:description" content="A passionate 'Web Developer' | 'Python Developer' from India. This portfolio showcasing projects, skills, and experiences in web development, software engineering, and more. Discover my work, professional journey, and get in touch for collaborations.">
+        <meta property="og:image" content="https://vsmidhun.github.io/img/Preview.png">
+        <meta property="og:url" content="https://vsmidhun.github.io">
+        <meta property="og:type" content="website">
+
+        <!--========Title===== -->
+        <title>Midhun V S</title>
+
+        <!--========Site Icon===== -->
+        <link rel="shortcut icon" type="image/png" href="./img/About.png">
+
+        <!--========Stylesheet===== -->
+        <link rel="stylesheet" href='./files/style.css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik&amp;display=swap">
+
+        <!--========BoxIcons===== -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========TailwindCSS===== -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!--========TypedJS===== -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <!--========JSON Script======-->
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Person",
+                "name": "Midhun V S",
+                "url": "https://vsmidhun21.github.io",
+                "image": "https://vsmidhun21.github.io/img/newabt.png",
+                "sameAs": [
+                    "https://www.linkedin.com/in/midhun-v-s",
+                    "https://instagram.com/midhun_021"
+                ],
+                "jobTitle": "Web Developer",
+                "description": "Passionate web developer with experience in creating responsive and interactive websites.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Ramco Institute of Technology"
+                }
+            }
+            </script>
     </head>
     <body>
-        
-        <header class="header">
-            
-            <a href="#" class="logo">Portfolio</a>
+        <!-- =========================================NavBar========================================= -->
+        <header class="header" id="header">
+            <a class="logo">Midhun V S</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon"><i class='bx bx-menu'></i></label>
             <nav class="navbar" id="myLinks">
                 <a href="#Home" style="--i:1" class="active" >Home</a>
                 <a href="#About" style="--i:2">About</a>
@@ -26,17 +71,17 @@
             </nav>
         </header>
 
-
+        <!-- =========================================Home========================================= -->
         <section class="home" id="Home">
             <div class="home-content">
                 
                 <h3>Hello, It's Me</h3>
                 <h1>MIDHUN V S</h1>
-                <h4 style="--i:6">I'm a Engineering student who is<br>
+                <h4 style="--i:6">I'm a Engineering graduate who is<br>
                     passionate in <span class="text"></span></h4>
                 
                 <div class="img">
-                    <img src="./img/cropedpic.png" class="responsive">
+                    <img src="./img/Home.png" class="responsive">
                 </div>
 
                 <div class="home-sci">
@@ -49,308 +94,344 @@
             </div>
         </section>
 
+        <!-- =========================================About========================================= -->
+        <section id="About">
+            <div class="about reveal">
+                <div class="custom-shape-divider-top-1720508545">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+                    </svg>
+                </div>
 
-        <section>
-            <div class="about reveal" id="About">
                 <div class="about-img">
-                    <img src="./img/midclg.jpeg" class="abt-res">
+                    <img src="./img/About.png" class="abt-res">
                 </div>
                 <div class="about-text reveal">
                     <h2>About <span>Me</span></h2>
-                    <p>I'm a Smart working engineering student specialized in Electronics and Communication Engineering.
+                    <p>I'm a Smart working engineering graduate specialized in Electronics and Communication Engineering.
                         Along with my degree, I completed Python, SQL, Java, Cybersecurity courses and various technologies.
                         I learnt has helped me develop a project called "Drowsiness Detection & Alerting System".
                         It was during this project that I discovered that I am a team player.
                         I am currently seeking roles where I can utilize my experience and skill.<br>
                         <br>
-                        <a href="https://drive.google.com/file/d/15YG8w9cSZGlUiXDp_OyEVK9Yq2HHVx19/view?usp=sharing" style="--i:11" class="abtbtn-box" target="_blank">Download Resume</a>
+                        <a href="./files/timeline.html" style="--i:11" class="abtbtn-box">Accademics & Experience</a>
                     </p>
                 </div>
+
+                <div class="custom-shape-divider-bottom-1720509106">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+                    </svg>
+                </div>
             </div>
         </section>
 
-        
+        <!-- =========================================Skills========================================= -->
         <section id="Skills">
             <h1 class="subtitle reveal">My <span>Skills</span></h1>
-            
-            <!--Frontend -->
-            <center>
-            <div class="cards reveal">
-                <div class="titles">
-                    <h1>Frontend</h1>
+            <div class="skills-container">
+                <!-- Skill 1 -->
+                <div class="skill-box reveal">
+                    <img src="./img/logos/python.png" alt="Python">
+                    <p>Python</p>
                 </div>
-                <div class="des">
-                    <div class="techs">
-                        <img alt="HTML logo" class="skill-icon" src="./img/logos/html-5.png"/>
-                        <span>
-                        HTML
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="React Js logo" class="skill-icon" src="./img/logos/react.png" width="24"/>
-                        <span>React Js</span>
-                    </div>
-                    <div class="techs">
-                        <img alt="CSS logo" class="skill-icon" src="./img/logos/css-3.png"/>
-                        <span>
-                        CSS
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="Figma logo" class="skill-icon" height="24" src="./img/logos/figma.png" width="24"/>
-                        <span>
-                        Figma
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="Node Js logo" class="skill-icon" src="./img/logos/js.png"/>
-                        <span>
-                        Javascript
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <!--Frontend -->
-            
-            <!-- Backend -->
-            <div class="cards reveal">
-                <div class="titles">
-                    <h1>Backend</h1>
-                </div>
-                <div class="des">
-                    <div class="techs">
-                        <img alt="C logo" class="skill-icon" src="./img/logos/cpro.png"/>
-                        <span>C Programming</span>
-                    </div>
-                    <div class="techs">
-                        <img alt="C logo" class="skill-icon" src="./img/logos/django.png"/>
-                        <span>Django</span>
-                    </div>
-                    <div class="techs">
-                        <img alt="Python logo" class="skill-icon" src="./img/logos/python.png"/>
-                        <span>Python</span>
-                    </div>
-                    <div class="techs">
-                        <img alt="Java logo" class="skill-icon" src="./img/logos/java.png"/>
-                        <span>Java</span>
-                    </div>
-                    <div class="techs">
-                        <img alt="NodeJS logo" class="skill-icon" src="./img/logos/node.png"/>
-                        <span>NodeJS</span>
-                    </div>
-                </div>
-            </div>
-                    
-            <!-- Android -->
-            <div class="cards reveal">
-                <div class="titles">
-                    <h1>Database</h1>
-                </div>
-                <div class="des">
-                    <div class="techs">
-                        <img alt="Postgresql logo" class="skill-icon" src="./img/logos/postgresql.png"/>
-                        <span>
-                        Postgre SQL
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="MongoDB logo" class="skill-icon" height="24" src="./img/logos/mongodb.png"/>
-                        <span>
-                        MongoDB Atlas
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="MongoDB logo" class="skill-icon" height="24" src="./img/logos/SQLite.png"/>
-                        <span>
-                        SQLite
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="My SQL logo" class="skill-icon" height="24" src="./img/logos/mysql.png"/>
-                        <span>
-                        My SQL
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="Postgresql logo" class="skill-icon" src="./img/logos/mssql.png"/>
-                        <span>
-                        MS SQL Server
-                        </span>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Others -->
-            <div class="cards reveal">
-                <div class="titles">
-                    <h1>Others</h1>
+                <!-- skill 2 -->
+                <div class="skill-box reveal">
+                    <img src="./img/logos/cpro.png" alt="C Language">
+                    <p>C Language</p>
                 </div>
-                <div class="des">
-                    
-                    <div class="techs">
-                        <img alt="Git logo" class="skill-icon" src="./img/logos/git.png"/>
-                        <span>
-                        Git
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="GitHub logo" class="skill-icon" src="./img/logos/github.png"/>
-                        <span>
-                        GitHub
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="Postman logo" class="skill-icon" src="./img/logos/postman.png"/>
-                        <span>
-                        Postman
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="VS Code logo" class="skill-icon" src="./img/logos/vscode.png"/>
-                        <span>
-                        VS Code
-                        </span>
-                    </div>
-                    <div class="techs">
-                        <img alt="Blender logo" class="skill-icon" src="./img/logos/blender.png"/>
-                        <span>
-                        Blender
-                        </span>
-                    </div>
-                    
-                    <div class="techs">
-                        <img alt="Davinci Resolve logo" class="skill-icon" src="./img/logos/DaVinciResolve.png"/>
-                        <span>
-                        DaVinci Resolve
-                        </span>
-                    </div>
+
+                <!-- skill 3 -->
+                <div class="skill-box reveal">
+                    <img src="./img/logos/html-5.png" alt="HTML">
+                    <p>HTML</p>
                 </div>
-            </div></center>
-        </section>
 
-        <!--Projects-->
-        <section id="Projects">
-            <div id="portfolio" class="services">
-                <div class="main-text reveal" id="serv">
-                    <h2>My <span>Projects</span></h2>
-                    <center>
-
-                    <!--cards -->
-                    <div class="card reveal">
-                        <div class="image">
-                            <img src="./img/DD.jpg">
-                        </div>
-                        <div class="title">
-                            <h1>Drowsiness Detection</h1>
-                        </div>
-                        <div class="des">
-                            <p>The face of the driver is captured and eye is detected by OpenCV, Python. If eye is closed alarm rings.</p>
-                            <div class="tech">
-                                <img alt="Python logo" class="skill-icon" src="./img/logos/python.png"/>
-                                <span>
-                                Python
-                                </span>
-                            </div>
-                            <div class="tech">
-                                <img alt="Python logo" class="skill-icon" src="./img/logos/opencv.png"/>
-                                <span>
-                                OpenCV
-                                </span>
-                            </div>
-                            <a class="code" href="https://github.com/vsmidhun21/DrowsinessDetectionAndAlertingSystem" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                    <!--cards -->
-
-                    <!--cards -->
-                    <div class="card reveal">
-                        <div class="image">
-                            <img src="./img/DA.jpg">
-                        </div>
-                        <div class="title">
-                            <h1>Desktop Application</h1>
-                        </div>
-                        <div class="des">
-                            <p>A windows application to manage the work of the staff’s in the company by using Python Tkinter and SQL.</p>
-                            <div class="tech">
-                                <img alt="Python logo" class="skill-icon" src="./img/logos/python.png"/>
-                                <span>
-                                Python
-                                </span>
-                            </div>
-                            <div class="tech">
-                                <img alt="Python logo" class="skill-icon" src="./img/logos/mssql.png"/>
-                                <span>
-                                MS SQL Server
-                                </span>
-                            </div>
-                            <a class="code" href="https://github.com/vsmidhun21/ApplicationToMonitorStaffsWork" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                    <!--cards -->
-                    
-                    <!--cards -->
-                    <div class="card reveal">
-                        <div class="image">
-                            <img src="./img/LD.jpg">
-                        </div>
-                        <div class="title">
-                            <h1>Leaf Disease Detection</h1>
-                        </div>
-                        <div class="des">
-                            <p>The leaf image is taken and detect the disease in the leaf using openCV and python.  </p>
-                            <div class="tech">
-                                <img alt="Python logo" class="skill-icon" src="./img/logos/python.png"/>
-                                <span>
-                                Python
-                                </span>
-                            </div>
-                            <div class="tech">
-                                <img alt="Python logo" class="skill-icon" src="./img/logos/opencv.png"/>
-                                <span>
-                                OpenCV
-                                </span>
-                            </div>
-                            <a class="code" href="https://github.com/vsmidhun21/Leaf-Disease-Detection" target="_blank">View Code</a>
-                        </div>
-                        
-                    </div>
-                    <!--cards -->
-
-                    <!--cards -->
-                    <div class="card reveal">
-                        <div class="image">
-                            <img src="./img/CBD.jpg">
-                        </div>
-                        <div class="title">
-                            <h1>Cement Bag Automation</h1>
-                        </div>
-                        <div class="des">
-                            <p>The cement bag is detected from the live camera and count will be stored in the database with timestamp. </p>
-                            <div class="tech">
-                                <img alt="ReactJS logo" class="skill-icon" src="./img/logos/python.png"/>
-                                <span>
-                                Python
-                                </span>
-                            </div>
-                            
-                            <div class="tech">
-                                <img alt="MongoDB logo" class="skill-icon" src="./img/logos/yolo.png"/>
-                                <span>
-                                Ultralytics
-                                </span>
-                            </div>
-                            <a class="code" href="https://github.com/vsmidhun21/CementBag" target="_blank">View Code</a>
-                        </div>
-                    </div>
-                    <!--cards -->
-                    
-                    </center>
+                <div class="skill-box reveal">
+                    <img src="./img/logos/css-3.png" alt="CSS">
+                    <p>CSS</p>
                 </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/js.png" alt="JS">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/react.png" alt="ReactJS">
+                    <p>ReactJS</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/nodejs.png" alt="NodeJS">
+                    <p>NodeJS</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/java.png" alt="Java">
+                    <p>Java</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/django.png" alt="Django">
+                    <p>Django</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/mysql.png" alt="MySQL">
+                    <p>MySQL</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/mongodb.png" alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/linux.png" alt="Linux">
+                    <p>Linux</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/wordpress.png" alt="Wordpress">
+                    <p>Wordpress</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/figma.png" alt="Figma">
+                    <p>Figma</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/github.png" alt="GitHub">
+                    <p>GitHub</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/vscode.png" alt="VSCode">
+                    <p>VS Code</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/mspowerpoint.png" alt="Powerpoint">
+                    <p>Powerpoint</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/fastapi.png" alt="FastAPI">
+                    <p>FastAPI</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/postman.png" alt="Postman">
+                    <p>Postman</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/Canva.png" alt="Canva">
+                    <p>Canva</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/DaVinciResolve.png" alt="DaVinci Resolve">
+                    <p>DaVinci Resolve</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/audacity.png" alt="Audacity">
+                    <p>Audacity</p>
+                </div>
+
+                <div class="skill-box reveal">
+                    <img src="./img/logos/blender.png" alt="Blender">
+                    <p>Blender</p>
+                </div>
+
             </div>
         </section>
 
-        <!--   Contact   -->
+        <!--========================Projects============================-->
+        <section id="Projects" class="prj reveal">
+            <div class="featured-projects-box reveal">
+                <h2>My <span>Projects</span></h2>
+                <div class="separator">
+                </div>
+
+                <!--==================Project #1======================-->
+                <div class="project project1 reveal">
+                    <div class="project-details-box">
+                        <div class="project-main-info">
+                            <span>Project #1</span>
+                            <h3>Drowsiness Detection</h3>
+                            <p>
+                                The face of the driver is captured and right && left eyes are detected.
+                                If eye is closed the source value will be incremented.
+                                When the value reaches 4 or more the alarm sound will be played.
+                                Those score value will be send to the cloud simultaneously.
+                            </p>
+                            <div class="project-icons">
+                                <a href="https://github.com/vsmidhun21/DrowsinessDetectionAndAlertingSystem", target="_blank"><i class='bx bxl-github'></i></a>
+                                <a href="https://youtu.be/xlH6WHzobcc", target="_blank"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <div class="project-tools">
+                            <p>Python, OpenCV, IBM Cloud</p>
+                        </div>
+                    </div>
+                    <div class="project-image-box">
+                        <a href="https://youtu.be/xlH6WHzobcc", target="_blank", class="project-img-link">
+                            <img src="./img/DD.png" alt="Project Preview Image" />
+                        </a>
+                    </div>
+                </div>
+
+                <!--===============Project #2=============-->
+                <div class="project project2 reveal">
+                    <div class="project-details-box">
+                        <div class="project-main-info">
+                            <span>Project #2</span>
+                            <h3>Desktop Application</h3>
+                            <p>
+                                A windows application to manage the work of the staff’s in the company.
+                                The application will get the details of the work progress of the employee and store in the database.
+                                Also the manager can generate report from those data easily using the application.
+                            </p>
+                            <div class="project-icons">
+                                <a href="https://github.com/vsmidhun21/ApplicationToMonitorStaffsWork", target="_blank"><i class='bx bxl-github'></i></a>
+                                <a href="https://youtu.be/szw4Al6vDFs", target="_blank"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <div class="project-tools">
+                            <p>Python, Tkinter, MS SQL Server</p>
+                        </div>
+                    </div>
+                    <div class="project-image-box">
+                        <a href="https://youtu.be/szw4Al6vDFs", target="_blank", class="project-img-link">
+                            <img src="./img/DA.jpg" alt="Project Preview Image" />
+                        </a>
+                    </div>
+                </div>
+
+                <!--===========================Project #3==================-->
+                <div class="project project1 reveal">
+                    <div class="project-details-box">
+                        <div class="project-main-info">
+                            <span>Project #3</span>
+                            <h3>Leaf Disease Detection</h3>
+                            <p>
+                                The program will get leaf image as input.
+                                By analyzing the color, holes etc. the disease of the leaf is identified.
+                                After analyzing if there is any disease is spotted then the name of the disease is displayed.
+                                If no disease found then "Healthy Leaf" will be displayed as output.
+                            </p>
+                            <div class="project-icons">
+                                <a href="https://github.com/vsmidhun21/Leaf-Disease-Detection", target="_blank"><i class='bx bxl-github'></i></a>
+                                <a href="https://youtu.be/_VlrYOOJYhQ", target="_blank"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <div class="project-tools">
+                            <p>Python, OpenCV, Tkinter</p>
+                        </div>
+                    </div>
+                    <div class="project-image-box">
+                        <a href="https://youtu.be/_VlrYOOJYhQ", target="_blank", class="project-img-link">
+                            <img src="./img/LDD.jpg" alt="Project Preview Image" />
+                        </a>
+                    </div>
+                </div>
+
+                <!--===============Project #4=============-->
+                <div class="project project2 reveal">
+                    <div class="project-details-box">
+                        <div class="project-main-info">
+                            <span>Project #4</span>
+                            <h3>Cement Bag Automation</h3>
+                            <p>
+                                The program gets input from the live camera and convert to separate frames.
+                                The frames will detect the cement bag in the conveyor.
+                                When the cement bags cross a point then the count of the cement bag is incremented and the data will be stored in the database with exact datetime.
+                            </p>
+                            <div class="project-icons">
+                                <a href="https://github.com/vsmidhun21/CementBag", target="_blank"><i class='bx bxl-github'></i></a>
+                                <a href="https://youtu.be/Tu7Bp2tmdas", target="_blank"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <div class="project-tools">
+                            <p>Python, OpenCV, YOLO, SQL</p>
+                        </div>
+                    </div>
+                    <div class="project-image-box">
+                        <a href="https://youtu.be/Tu7Bp2tmdas", target="_blank", class="project-img-link">
+                            <img src="./img/CBD.jpg" alt="Project Preview Image" />
+                        </a>
+                    </div>
+                </div>
+
+                <!--===============Project #5=============-->
+                <div class="project project1 reveal">
+                    <div class="project-details-box">
+                        <div class="project-main-info">
+                            <span>Project #5</span>
+                            <h3>Retail E-commerce</h3>
+                            <p>
+                                I have developed a retail e-commerce platform using Python full stack technologies.
+                                The project aims to create a robust and user-friendly online shopping experience,
+                                incorporating features such as product catalog management, user authentication and shopping cart functionality.
+                            </p>
+                            <div class="project-icons">
+                                <a href="https://github.com/vsmidhun21/Ecommerce-Project", target="_blank"><i class='bx bxl-github'></i></a>
+                                <a href="https://vsmidhun.pythonanywhere.com/", target="_blank"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <div class="project-tools">
+                            <p>Python, Django, HTML, CSS</p>
+                        </div>
+                    </div>
+                    <div class="project-image-box">
+                        <a href="https://vsmidhun.pythonanywhere.com", target="_blank", class="project-img-link">
+                            <img src="./img/REC.jpg" alt="Project Preview Image" />
+                        </a>
+                    </div>
+                </div>
+
+                <!--===============Project #6=============-->
+                <div class="project project2 reveal">
+                    <div class="project-details-box">
+                        <div class="project-main-info">
+                            <span>Project #6</span>
+                            <h3>Floor Cleaning Robot</h3>
+                            <p>
+                                Did a Floor Cleaning Robot that can be controlled using an Android application using Voice inputs.
+                                The Robot can be controlled manually by providing predefined commands.
+                                Also the robot can run autonomously by giving the command as "Auto".
+                                Obstacles are avoided using UV Sensor. 
+                            </p>
+                            <div class="project-icons">
+                                <a href="https://github.com/vsmidhun21/Floor-Cleaning-Robot", target="_blank"><i class='bx bxl-github'></i></a>
+                                <a href="https://youtu.be/IET9qNXmBq0", target="_blank"><i class='bx bx-link-external'></i></a>
+                            </div>
+                        </div>
+                        <div class="project-tools">
+                            <p>Embedded C, ThingSpeak, MIT App Inventor</p>
+                        </div>
+                    </div>
+                    <div class="project-image-box">
+                        <a href="https://youtu.be/IET9qNXmBq0", target="_blank", class="project-img-link">
+                            <img src="./img/FCR.jpg" alt="Project Preview Image" />
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--====================== Contact =============================== -->
         <section class="contacts" id="Contact">
             <div class="contact-text reveal">
                 <h2>Contact <span>Me</span></h2>
@@ -372,12 +453,13 @@
                     <p>Developed by Midhun <i class='bx bx-copyright' style="color: white;"></i> 2024</p>
                 </div>
             </div>
-            
         </section>
 
+        <!--====================== Go Top Icon =============================== -->
         <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i> </a>
 
+        <!--========Scripts===== -->
         <script src="./files/script.js"></script>
+
     </body>  
 </html>
-
