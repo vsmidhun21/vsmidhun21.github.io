@@ -594,7 +594,8 @@ h3 {
     font-family: 'Rubik', sans-serif;
 }
 .project-main-info h3{
-    background: -webkit-linear-gradient(90.98deg, rgba(24, 185, 207, 0.9) -2.14%, #6688ff 103.54%);
+    background: #0ef;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-size: 2rem;
