@@ -402,6 +402,10 @@ body {
     animation-delay: 2s;
 }
 
+.containerTline:nth-child(4){
+    animation-delay: 3s;
+}
+
 .text-box{
     padding: 20px 30px;
     background-color: #fff;
