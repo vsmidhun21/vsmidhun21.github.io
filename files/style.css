@@ -400,6 +400,20 @@ body {
     }
 }
 
+/* ============= academic animation ===========*/
+.containerTlineAcc:nth-child(1){
+    animation-delay: 0s;
+}
+
+.containerTlineAcc:nth-child(2){
+    animation-delay: 1s;
+}
+
+.containerTlineAcc:nth-child(3){
+    animation-delay: 2s;
+}
+
+/* ============================ Exp Animatin ================*/
 .containerTline:nth-child(1){
     animation-delay: 0s;
 }
@@ -418,18 +432,6 @@ body {
 
 .containerTline:nth-child(5){
     animation-delay: 4s;
-}
-
-.containerTlineAcc:nth-child(1){
-    animation-delay: 0s;
-}
-
-.containerTlineAcc:nth-child(2){
-    animation-delay: 1s;
-}
-
-.containerTlineAcc:nth-child(3){
-    animation-delay: 2s;
 }
 
 .text-box{
@@ -1051,6 +1053,11 @@ h3 {
         padding-left: 80px;
         padding-right: 25px;
     }
+    .containerTlineAcc{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
     .text-box{
         font-size: 13px;
     }
@@ -1249,6 +1256,11 @@ h3 {
         left: 31px;
     }
     .containerTline{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .containerTlineAcc{
         width: 100%;
         padding-left: 80px;
         padding-right: 25px;
@@ -1486,6 +1498,11 @@ h3 {
         left: 31px;
     }
     .containerTline{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .containerTlineAcc{
         width: 100%;
         padding-left: 80px;
         padding-right: 25px;
