@@ -33,12 +33,13 @@ window.onscroll = () => {
 
 /*========== Typing animation in home page ==========*/
 var typed = new Typed(".text", {
-    strings: ["Programming" , "Web Development", "Cybersecurity"],
+    strings: ["Machine Learning", "Cyber Security" , "Computer Vision"],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
     loop:true
 });
+
 
 
 /*========== Go top icon in left bottom ==========*/
