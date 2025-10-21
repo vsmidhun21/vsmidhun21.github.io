@@ -33,7 +33,7 @@ window.onscroll = () => {
 
 /*========== Typing animation in home page ==========*/
 var typed = new Typed(".text", {
-    strings: ["Machine Learning", "Cyber Security" , "Computer Vision"],
+    strings: ["Machine Learning", "Cyber Security" , "DevOps"],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
@@ -69,3 +69,4 @@ document.addEventListener('DOMContentLoaded', function () {
     checkScroll();
     window.addEventListener('scroll', checkScroll);
 });
+
